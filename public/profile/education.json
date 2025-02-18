@@ -1,19 +1,19 @@
 {
-    "education":[
-        {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
-        },
-        {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
-        }
-    ]
+  "education": [
+    {
+      "title": "Nov 2022 - Jul 2026",
+      "cardTitle": "B.Tech, Computer Science",
+      "cardSubtitle": "IIIT KOTA",
+      "cardDetailedText": "CGPA - 5.88",
+      "icon": {
+        "src": "images/education/favicon.png"
+      }
+    },
+    {
+      "title": "Apr 2021",
+      "cardTitle": "High School",
+      "cardSubtitle": "KDMA, Kanpur",
+      "cardDetailedText": "Marks - 90%"
+    }
+  ]
 }
