@@ -10,7 +10,6 @@ import GlobalStyles from './theme/GlobalStyles';
 import { lightTheme, darkTheme } from './theme/themes';
 
 function App() {
-  window.matchMedia = null;
   const { isDarkMode, toggle } = useDarkMode(true); // Updated hook usage
 
   const theme = isDarkMode ? darkTheme : lightTheme;

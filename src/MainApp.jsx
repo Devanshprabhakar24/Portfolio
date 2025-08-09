@@ -21,8 +21,8 @@ function MainApp() {
     <div className="MainApp">
       <NavBarWithRouter />
       <main className="main">
-        <Switch>
-          <Suspense fallback={<FallbackSpinner />}>
+        <Suspense fallback={<FallbackSpinner />}>
+          <Switch>
             <Route exact path="/" component={Home} />
             {data
               && data.sections.map((route) => {
@@ -37,8 +37,8 @@ function MainApp() {
                   />
                 );
               })}
-          </Suspense>
-        </Switch>
+          </Switch>
+        </Suspense>
       </main>
     </div>
   );
