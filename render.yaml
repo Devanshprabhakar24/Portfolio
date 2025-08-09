@@ -1,0 +1,12 @@
+services:
+  - type: static_site
+    name: portfolio-app
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    publishPath: build
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: NPM_CONFIG_LEGACY_PEER_DEPS
+        value: "true"
